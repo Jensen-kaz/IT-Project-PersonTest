@@ -34,10 +34,10 @@
             this.label5Introverted = new System.Windows.Forms.Label();
             this.label6Sensing = new System.Windows.Forms.Label();
             this.label7Intuitive = new System.Windows.Forms.Label();
-            this.label8Thinking = new System.Windows.Forms.Label();
-            this.label8Feeling = new System.Windows.Forms.Label();
-            this.label9Judging = new System.Windows.Forms.Label();
-            this.label10Perceiving = new System.Windows.Forms.Label();
+            this.label8Irrational = new System.Windows.Forms.Label();
+            this.label8Logic = new System.Windows.Forms.Label();
+            this.label9Ethics = new System.Windows.Forms.Label();
+            this.label10Rational = new System.Windows.Forms.Label();
             this.label11TypePerson = new System.Windows.Forms.Label();
             this.richTextBox1Variant1Area = new System.Windows.Forms.RichTextBox();
             this.richTextBox2Variant2Area = new System.Windows.Forms.RichTextBox();
@@ -81,7 +81,7 @@
             // 
             this.label5Introverted.AutoSize = true;
             this.label5Introverted.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5Introverted.Location = new System.Drawing.Point(542, 125);
+            this.label5Introverted.Location = new System.Drawing.Point(542, 101);
             this.label5Introverted.Name = "label5Introverted";
             this.label5Introverted.Size = new System.Drawing.Size(93, 17);
             this.label5Introverted.TabIndex = 5;
@@ -107,45 +107,45 @@
             this.label7Intuitive.TabIndex = 7;
             this.label7Intuitive.Text = "Intuitive(N):";
             // 
-            // label8Thinking
+            // label8Irrational
             // 
-            this.label8Thinking.AutoSize = true;
-            this.label8Thinking.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8Thinking.Location = new System.Drawing.Point(550, 152);
-            this.label8Thinking.Name = "label8Thinking";
-            this.label8Thinking.Size = new System.Drawing.Size(85, 17);
-            this.label8Thinking.TabIndex = 8;
-            this.label8Thinking.Text = "Thinking(T):";
+            this.label8Irrational.AutoSize = true;
+            this.label8Irrational.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8Irrational.Location = new System.Drawing.Point(550, 152);
+            this.label8Irrational.Name = "label8Irrational";
+            this.label8Irrational.Size = new System.Drawing.Size(90, 17);
+            this.label8Irrational.TabIndex = 8;
+            this.label8Irrational.Text = "Irrational(Irr):";
             // 
-            // label8Feeling
+            // label8Logic
             // 
-            this.label8Feeling.AutoSize = true;
-            this.label8Feeling.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8Feeling.Location = new System.Drawing.Point(559, 230);
-            this.label8Feeling.Name = "label8Feeling";
-            this.label8Feeling.Size = new System.Drawing.Size(76, 17);
-            this.label8Feeling.TabIndex = 9;
-            this.label8Feeling.Text = "Feeling(F):";
+            this.label8Logic.AutoSize = true;
+            this.label8Logic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8Logic.Location = new System.Drawing.Point(571, 231);
+            this.label8Logic.Name = "label8Logic";
+            this.label8Logic.Size = new System.Drawing.Size(64, 17);
+            this.label8Logic.TabIndex = 9;
+            this.label8Logic.Text = "Logic(L):";
             // 
-            // label9Judging
+            // label9Ethics
             // 
-            this.label9Judging.AutoSize = true;
-            this.label9Judging.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9Judging.Location = new System.Drawing.Point(556, 256);
-            this.label9Judging.Name = "label9Judging";
-            this.label9Judging.Size = new System.Drawing.Size(79, 17);
-            this.label9Judging.TabIndex = 10;
-            this.label9Judging.Text = "Judging(J):";
+            this.label9Ethics.AutoSize = true;
+            this.label9Ethics.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9Ethics.Location = new System.Drawing.Point(566, 256);
+            this.label9Ethics.Name = "label9Ethics";
+            this.label9Ethics.Size = new System.Drawing.Size(73, 17);
+            this.label9Ethics.TabIndex = 10;
+            this.label9Ethics.Text = "Ethics(Et):";
             // 
-            // label10Perceiving
+            // label10Rational
             // 
-            this.label10Perceiving.AutoSize = true;
-            this.label10Perceiving.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10Perceiving.Location = new System.Drawing.Point(538, 99);
-            this.label10Perceiving.Name = "label10Perceiving";
-            this.label10Perceiving.Size = new System.Drawing.Size(97, 17);
-            this.label10Perceiving.TabIndex = 11;
-            this.label10Perceiving.Text = "Perceiving(P):";
+            this.label10Rational.AutoSize = true;
+            this.label10Rational.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10Rational.Location = new System.Drawing.Point(551, 128);
+            this.label10Rational.Name = "label10Rational";
+            this.label10Rational.Size = new System.Drawing.Size(84, 17);
+            this.label10Rational.TabIndex = 11;
+            this.label10Rational.Text = "Rational(R):";
             // 
             // label11TypePerson
             // 
@@ -213,7 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1134, 342);
+            this.ClientSize = new System.Drawing.Size(1134, 341);
             this.Controls.Add(this.label12PersonDescription);
             this.Controls.Add(this.richTextBox1PersonDescription);
             this.Controls.Add(this.button2Variant2);
@@ -221,10 +221,10 @@
             this.Controls.Add(this.richTextBox2Variant2Area);
             this.Controls.Add(this.richTextBox1Variant1Area);
             this.Controls.Add(this.label11TypePerson);
-            this.Controls.Add(this.label10Perceiving);
-            this.Controls.Add(this.label9Judging);
-            this.Controls.Add(this.label8Feeling);
-            this.Controls.Add(this.label8Thinking);
+            this.Controls.Add(this.label10Rational);
+            this.Controls.Add(this.label9Ethics);
+            this.Controls.Add(this.label8Logic);
+            this.Controls.Add(this.label8Irrational);
             this.Controls.Add(this.label7Intuitive);
             this.Controls.Add(this.label6Sensing);
             this.Controls.Add(this.label5Introverted);
@@ -247,10 +247,10 @@
         private System.Windows.Forms.Label label5Introverted;
         private System.Windows.Forms.Label label6Sensing;
         private System.Windows.Forms.Label label7Intuitive;
-        private System.Windows.Forms.Label label8Thinking;
-        private System.Windows.Forms.Label label8Feeling;
-        private System.Windows.Forms.Label label9Judging;
-        private System.Windows.Forms.Label label10Perceiving;
+        private System.Windows.Forms.Label label8Irrational;
+        private System.Windows.Forms.Label label8Logic;
+        private System.Windows.Forms.Label label9Ethics;
+        private System.Windows.Forms.Label label10Rational;
         private System.Windows.Forms.Label label11TypePerson;
         private System.Windows.Forms.RichTextBox richTextBox1Variant1Area;
         private System.Windows.Forms.RichTextBox richTextBox2Variant2Area;
