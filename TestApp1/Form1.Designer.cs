@@ -181,7 +181,6 @@
             this.button1Variant1.TabIndex = 15;
             this.button1Variant1.Text = "Мне подходит первый вариант";
             this.button1Variant1.UseVisualStyleBackColor = true;
-            this.button1Variant1.Click += new System.EventHandler(this.button1Variant1_Click);
             // 
             // button2Variant2
             // 
@@ -191,7 +190,6 @@
             this.button2Variant2.TabIndex = 16;
             this.button2Variant2.Text = "Мне подходит второй вариант";
             this.button2Variant2.UseVisualStyleBackColor = true;
-            this.button2Variant2.Click += new System.EventHandler(this.button2Variant2_Click);
             // 
             // richTextBox1PersonDescription
             // 
