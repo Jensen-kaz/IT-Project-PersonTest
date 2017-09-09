@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace TestApp1
 {
     /// <summary>
@@ -24,12 +25,14 @@ namespace TestApp1
             try
             {
                 System.IO.StreamReader file = new System.IO.StreamReader(FileName);
-                while ((line = file.ReadLine()) != null)
-                {
-                    QuestionsList.Add(line);
-                }
+                
+                    while ((line = file.ReadLine()) != null)
+                    {
+                        QuestionsList.Add(line);
+                    }
 
-                file.Close();
+                    file.Close();
+                
             }
             catch
             {

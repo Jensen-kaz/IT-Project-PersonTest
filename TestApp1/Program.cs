@@ -15,15 +15,20 @@ namespace TestApp1
         [STAThread]
         static void Main()
         {
-            string QuestionsFile = "data/questions.txt";
+         //   string QuestionsFile = "data/questions.txt";
+         //   List<string> QuestionList = new List<string>();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-            QuestionsFileLoaderClass QuestionFile = new QuestionsFileLoaderClass(QuestionsFile);
+       /*     QuestionsFileLoaderClass QuestionFile = new QuestionsFileLoaderClass(QuestionsFile);
+            QuestionList= QuestionFile.GetQuestionsList();
 
-            // Form1.FormQuestion_1.Text.Insert(0, QuestionFile.GetQuestionsList()[4]); 
+            TesterClass TesterLogic = new TesterClass(QuestionList);
+
+             Form1.FormQuestion_1.Text.Insert(0, QuestionFile.GetQuestionsList()[4]); 
+       */
             
 
         }

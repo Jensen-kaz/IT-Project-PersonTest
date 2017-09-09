@@ -71,7 +71,7 @@
             // 
             this.label4Extroverted.AutoSize = true;
             this.label4Extroverted.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4Extroverted.Location = new System.Drawing.Point(532, 73);
+            this.label4Extroverted.Location = new System.Drawing.Point(532, 74);
             this.label4Extroverted.Name = "label4Extroverted";
             this.label4Extroverted.Size = new System.Drawing.Size(103, 17);
             this.label4Extroverted.TabIndex = 4;
@@ -81,7 +81,7 @@
             // 
             this.label5Introverted.AutoSize = true;
             this.label5Introverted.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5Introverted.Location = new System.Drawing.Point(542, 101);
+            this.label5Introverted.Location = new System.Drawing.Point(542, 102);
             this.label5Introverted.Name = "label5Introverted";
             this.label5Introverted.Size = new System.Drawing.Size(93, 17);
             this.label5Introverted.TabIndex = 5;
@@ -111,7 +111,7 @@
             // 
             this.label8Irrational.AutoSize = true;
             this.label8Irrational.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8Irrational.Location = new System.Drawing.Point(550, 152);
+            this.label8Irrational.Location = new System.Drawing.Point(545, 152);
             this.label8Irrational.Name = "label8Irrational";
             this.label8Irrational.Size = new System.Drawing.Size(90, 17);
             this.label8Irrational.TabIndex = 8;
@@ -121,7 +121,7 @@
             // 
             this.label8Logic.AutoSize = true;
             this.label8Logic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8Logic.Location = new System.Drawing.Point(571, 231);
+            this.label8Logic.Location = new System.Drawing.Point(571, 230);
             this.label8Logic.Name = "label8Logic";
             this.label8Logic.Size = new System.Drawing.Size(64, 17);
             this.label8Logic.TabIndex = 9;
@@ -131,7 +131,7 @@
             // 
             this.label9Ethics.AutoSize = true;
             this.label9Ethics.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9Ethics.Location = new System.Drawing.Point(566, 256);
+            this.label9Ethics.Location = new System.Drawing.Point(562, 256);
             this.label9Ethics.Name = "label9Ethics";
             this.label9Ethics.Size = new System.Drawing.Size(73, 17);
             this.label9Ethics.TabIndex = 10;
@@ -141,7 +141,7 @@
             // 
             this.label10Rational.AutoSize = true;
             this.label10Rational.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10Rational.Location = new System.Drawing.Point(551, 128);
+            this.label10Rational.Location = new System.Drawing.Point(551, 129);
             this.label10Rational.Name = "label10Rational";
             this.label10Rational.Size = new System.Drawing.Size(84, 17);
             this.label10Rational.TabIndex = 11;
@@ -151,7 +151,7 @@
             // 
             this.label11TypePerson.AutoSize = true;
             this.label11TypePerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11TypePerson.Location = new System.Drawing.Point(506, 298);
+            this.label11TypePerson.Location = new System.Drawing.Point(506, 300);
             this.label11TypePerson.Name = "label11TypePerson";
             this.label11TypePerson.Size = new System.Drawing.Size(91, 17);
             this.label11TypePerson.TabIndex = 12;
@@ -182,6 +182,7 @@
             this.button1Variant1.TabIndex = 15;
             this.button1Variant1.Text = "Мне подходит первый вариант";
             this.button1Variant1.UseVisualStyleBackColor = true;
+            this.button1Variant1.Click += new System.EventHandler(this.button1Variant1_Click);
             // 
             // button2Variant2
             // 
@@ -191,12 +192,13 @@
             this.button2Variant2.TabIndex = 16;
             this.button2Variant2.Text = "Мне подходит второй вариант";
             this.button2Variant2.UseVisualStyleBackColor = true;
+            this.button2Variant2.Click += new System.EventHandler(this.button2Variant2_Click);
             // 
             // richTextBox1PersonDescription
             // 
             this.richTextBox1PersonDescription.Location = new System.Drawing.Point(684, 51);
             this.richTextBox1PersonDescription.Name = "richTextBox1PersonDescription";
-            this.richTextBox1PersonDescription.Size = new System.Drawing.Size(439, 269);
+            this.richTextBox1PersonDescription.Size = new System.Drawing.Size(586, 239);
             this.richTextBox1PersonDescription.TabIndex = 17;
             this.richTextBox1PersonDescription.Text = "";
             // 
@@ -214,7 +216,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1134, 341);
+            this.ClientSize = new System.Drawing.Size(1282, 341);
             this.Controls.Add(this.label12PersonDescription);
             this.Controls.Add(this.richTextBox1PersonDescription);
             this.Controls.Add(this.button2Variant2);
@@ -232,7 +234,6 @@
             this.Controls.Add(this.label4Extroverted);
             this.Controls.Add(this.label3ProgressCounter);
             this.Controls.Add(this.label2Variant);
-            this.MaximumSize = new System.Drawing.Size(1150, 380);
             this.MinimumSize = new System.Drawing.Size(1150, 380);
             this.Name = "Form1";
             this.Text = "Определение типа личности (Гуленко)";
