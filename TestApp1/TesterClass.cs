@@ -262,14 +262,14 @@ namespace TestApp1
             if (Irr > R)
             {
                 if (S > N)
-                    TestPsychotype += "Сенсорико-";
+                    TestPsychotype += "Сенсорно-";
                 else
                     TestPsychotype += "Интуитивно-";
 
                 if (L > Et)
-                    TestPsychotype += "Логический";
+                    TestPsychotype += "логический";
                 else
-                    TestPsychotype += "Этический";
+                    TestPsychotype += "этический";
             }
             else
             {
@@ -279,15 +279,15 @@ namespace TestApp1
                     TestPsychotype += "Этико-";
 
                 if (S > N)
-                    TestPsychotype += "Сенсорный";
+                    TestPsychotype += "сенсорный";
                 else
-                    TestPsychotype += "Интуитивный";
+                    TestPsychotype += "интуитивный";
             }
 
             if (E > I)
-                TestPsychotype += " Экстраверт";
+                TestPsychotype += " экстраверт";
             else
-                TestPsychotype += " Интроверт";
+                TestPsychotype += " интроверт";
 
             
         }

@@ -196,6 +196,7 @@
             // 
             // richTextBox1PersonDescription
             // 
+            this.richTextBox1PersonDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox1PersonDescription.Location = new System.Drawing.Point(684, 51);
             this.richTextBox1PersonDescription.Name = "richTextBox1PersonDescription";
             this.richTextBox1PersonDescription.Size = new System.Drawing.Size(586, 239);
@@ -234,7 +235,8 @@
             this.Controls.Add(this.label4Extroverted);
             this.Controls.Add(this.label3ProgressCounter);
             this.Controls.Add(this.label2Variant);
-            this.MinimumSize = new System.Drawing.Size(1150, 380);
+            this.MaximumSize = new System.Drawing.Size(1298, 380);
+            this.MinimumSize = new System.Drawing.Size(1298, 380);
             this.Name = "Form1";
             this.Text = "Определение типа личности (Гуленко)";
             this.ResumeLayout(false);

@@ -16,10 +16,13 @@ namespace TestApp1
             get { return questionsFile; }
         }
 
+        public string PsychotypeFile { get; private set; } = "data/psicho_types_notes.txt";
+
         public List<string> QuestionList { get; set; }
 
        public QuestionsFileLoaderClass QuestionFile { get; set; }
        public TesterClass TesterLogic { get; set; }
+       public PsychoTypeShow PsychotypeResult { get; set; }
 
 
 

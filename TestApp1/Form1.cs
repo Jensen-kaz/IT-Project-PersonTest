@@ -12,6 +12,8 @@ namespace TestApp1
 {
     public partial class Form1 : Form
     {
+       
+
         CoreParameters ParametersApp;
         public Form1()
         {
@@ -24,6 +26,9 @@ namespace TestApp1
             ParametersApp.QuestionList = ParametersApp.QuestionFile.GetQuestionsList();         // QuestionList = QuestionFile.GetQuestionsList();
 
             ParametersApp.TesterLogic = new TesterClass(ParametersApp.QuestionList);  //   TesterClass TesterLogic = new TesterClass(QuestionList);
+
+
+            ParametersApp.PsychotypeResult = new PsychoTypeShow(ParametersApp.PsychotypeFile);
 
             FormQuestion_1.Text = ParametersApp.TesterLogic.QuestionObtainVariant1();
             FormQuestion_2.Text = ParametersApp.TesterLogic.QuestionObtainVariant2();
@@ -47,6 +52,7 @@ namespace TestApp1
             label10Rational.Text = "Rational(R): " + ParametersApp.TesterLogic.ResultRational;
             label3ProgressCounter.Text = "Общий прогресс = " + ParametersApp.TesterLogic.ResultProgressTest + "%";
             label11TypePerson.Text = "Итог теста = " + ParametersApp.TesterLogic.TestPsychotype;
+            
         }
 
 
@@ -61,6 +67,8 @@ namespace TestApp1
             {
                 button1Variant1.Enabled = false;
                 button2Variant2.Enabled = false;
+                richTextBox1PersonDescription.Text = ParametersApp.PsychotypeResult.GetPsychotypeDescription(ParametersApp.TesterLogic.TestPsychotype);
+             
             }
            
         }
@@ -76,6 +84,8 @@ namespace TestApp1
             {
                 button1Variant1.Enabled = false;
                 button2Variant2.Enabled = false;
+                richTextBox1PersonDescription.Text = ParametersApp.PsychotypeResult.GetPsychotypeDescription(ParametersApp.TesterLogic.TestPsychotype);
+                
             }
         }
     }
